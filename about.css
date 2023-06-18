@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    min-width: 992px;
+}
+#head{
+    height: 30px;
+    margin-top: 30px;
+}
+#head img{
+    margin-left: 50px;
+    height: 24px;
+    padding-top: 8px;
+}
+#nav{
+    float: right;
+    margin-right: 50px;
+    line-height: 30px;
+}
+#nav li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+#nav a:hover{
+    color: #000000;
+}
+.hero{
+    margin-top: 30px;
+    background-image: url("https://pbs.twimg.com/media/FyEth5aagAIBCKb?format=jpg&name=4096x4096");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #323232;
+}
+#profile img{
+    margin-left: 100px;
+    margin-right: auto;
+    float: left;
+}
+.st{
+    float: right;
+    background-color: #ebebeb;
+    margin-right: 100px;
+    height: 480px;
+    width: 800px;
+    color: #323232;
+}
+h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #323232;
+}
+p{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #323232;
+}
+.sto{
+    margin-top: 60px;
+}
+.clearfix{
+    clear: both;
+}
+.his-list{
+    background-color: #ebebeb;
+    height: 664px;
+    width: 1240px;
+}
+dl{
+    margin-bottom: 20px;
+    display: block;
+    color: #323232;
+}
+dt:not(:first-child){
+    float: left;
+    margin-right: 20px;
+    height: auto;
+    width: 60px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+dt{
+    float: left;
+    margin-right: 20px;
+    height: auto;
+    width: 60px;
+    font-size: 16px;
+    color: #000000;
+}
+dd{
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0 0 0 100px;
+    line-height: 24px;
+}
+dd:last-child{
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0 0 0 100px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.left{
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 60px;
+    margin-top: 16px;
+}
+.right{
+    float: right;
+    margin-right: 60px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.mv{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.video h1{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #323232;
+}
+.video .next{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video .next-lin{
+    text-decoration: none;
+    color: #323232;
+}
+.video .more{
+    font-size: 40px;
+    padding-left: 10px;
+}
+.mv .mv-lin img{
+    width: 600px;
+}
+#foot{
+    background-color: #323232;
+    padding: 100px;
+}
+#foot .last{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.779);
+}
+.snsim{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.snsim .sns-logo img{
+    width: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/* @media(min-width:768px)and(max-width:1024px){
+
+} */
